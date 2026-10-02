@@ -8,7 +8,7 @@ metadata:                              # Deployment 메타데이터 영역
     app: git-web                       # 애플리케이션 식별 Label 지정
 
 spec:                                  # Deployment 설정 영역
-  replicas: 2                          # Pod 2개 실행
+  replicas: 3                          # Pod 2개 실행
 
   selector:                            # 관리할 Pod 선택 조건 지정
     matchLabels:                       # Pod Label 조건 지정
